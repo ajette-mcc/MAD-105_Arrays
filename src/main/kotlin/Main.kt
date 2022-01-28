@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
         count++
     }
     do {
+        println("")
         print("Book a room (Enter B), Release a room (Enter R), Check quantity of a room (Enter Q), or Exit (Enter X): ")
         Entry = readLine()!!.toString()
 
